@@ -23,9 +23,9 @@
 - 开发语言：TypeScript 5.3+
 - 构建工具：Vite 5.0+
 - 状态管理：Pinia 2.1+
-- 数字人SDK：魔珐星云 SDK
-- AI大模型：通义千问 API
-- 监控工具：Sentry
+- 数字人SDK：魔珐星云 JS SDK（通过script标签引入）
+- AI大模型：通义千问 API（可选）
+- 监控工具：Sentry（可选）
 
 ## 🚀 快速开始
 

@@ -10,12 +10,12 @@
 
 **解决方案：**
 ```bash
-# 切换到淘宝镜像
-npm config set registry https://registry.npmmirror.com
-
 # 清除缓存后重试
 npm cache clean --force
 npm install
+
+# 如果速度慢，可以尝试使用国内镜像（注意：魔珐星云SDK不支持镜像源）
+# npm config set registry https://registry.npmmirror.com
 ```
 
 ### Q2: TypeScript类型错误

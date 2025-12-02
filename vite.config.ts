@@ -28,7 +28,6 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          'xingyun-sdk': ['@mofa/xingyun-sdk'],
           'vue-vendor': ['vue', 'pinia']
         }
       }
