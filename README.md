@@ -38,7 +38,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/yourusername/xingyun-exhibition-demo.git
+git clone https://github.com/bailucool/xingyun-exhibition-demo.git
 cd xingyun-exhibition-demo
 
 # 2. 安装依赖
